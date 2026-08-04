@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Basic Elements</title>
+    </head>
+    <body>
+        <h1>This is H1 Tag</h1>
+        <h2>This is H2 Tag</h2>
+        <h3>This is H3 Tag</h3>
+        <h4>this is H4 Tag</h4>
+        <h5>This is H5 Tag</h5>
+        <h6>This is H6 Tag</h6>
+        <p>This is a Paragraph Tag</p>
+        <hr>
+        <u>This is an Underline text Tag</u>
+        <br>
+        <i>This is an italic text Tag</i>
+        <br>
+        <b>This is an bold text Tag</b>
+        <hr>
+        <strong>This tag the display the text in bold format</strong>
+        <br>
+        <em>This tag to display the text in italic format</em>
+        <br>
+        <s>This tag to display the text as strickover format</s>
+        <br>
+        <p>To repersent the alglebric expression ax<sub>3</sub>+bx<sub>2</sub>+c =0 </p>
+        <p>For represnting the chemical equation like H<sub>2</sub>SO<sub>4</sub></p>
+        <img src="https://dellstatic.luroconnect.com/media/catalog/product/cache/74ae05ef3745aec30d7f5a287debd7f5/a/l/alienware-ac16250-laptop-c-15000ff105-bl.png" alt="sorry for the image not found" width="500" height="500">
+        <audio controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+            your browser does not support the audio element.
+            </audio>
+        <video width="320" height="240" controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            your browser does not support the video tag.
+        </video>
+        <p>To create a link to another webpage we use anchor tag <a href="https://www.example.com">Example</a></p>
+        <a href="https://newerp.kluniversity.in/index.php" target="_blank">Click here to go to NewERP</a>
+        <p>Table Tag</p>
+        <table border="1" cellpadding="10" cellspacing="0" cellgap="1">
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Jane</td>
+                <td>Smith</td>
+                <td>30</td>
+            </tr>
+        </table>
+    </body>
+</html>
