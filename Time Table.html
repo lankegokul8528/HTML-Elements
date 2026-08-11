@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TimeTable</title>
+</head>
+<body>
+    <h1 style="text-align: center;"><b>Time Table</b></h1>
+    <table border="1" align="center">
+        <thead>
+            <tr>
+                <th>Day/Hr</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>7</th>
+                <th>8</th>
+                <th>9</th>
+                <th>10</th>
+                <th>11</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Monday -->
+            <tr>
+                <th>Mon</th>
+                <td colspan="2">25SC2006-L - S-2 -RoomNo-C411</td>
+                <td colspan="2" align="center">25CS2101-P - S-4 -RoomNo-C217</td>
+                <!-- Clubbed Lunch Column spanning 5 rows -->
+                <td rowspan="5">LUNCH</td>
+                <td colspan="2">25AD2102-L - S-4 -RoomNo-C421B2</td>
+                <td colspan="2">25EC2206-S - S-5 - RoomNo-C018</td>
+            </tr>
+
+            <!-- Tuesday -->
+            <tr>
+                <th>Tue</th>
+                <td colspan="2">25CS2101-S - S-4 -RoomNo-C624A</td>
+                <td colspan="2" align="center">25EC2206-S - S-5 -RoomNo-R105A</td>
+                <td colspan="2">25AD2102-P - S-4 -RoomNo-C124A</td>
+                <td colspan="2">--------------------------------------------------</td>
+            </tr>
+
+            <!-- Wednesday -->
+            <tr>
+                <th>Wed</th>
+                <td colspan="2">25MT1306-L - S-5 -RoomNo-C521A</td>
+                <td>25AD2102-L - S-4 -RoomNo-C421B2</td>
+                <td>25CS2102-L - S-3 -RoomNo-M305</td>
+                <!-- Merged hours 8 and 9 for Wednesday -->
+                <td colspan="2">--------------------------------------------------</td>
+                <td colspan="2">25SC2006-S - S-2 - RoomNo-C608</td>
+            </tr>
+
+            <!-- Thursday -->
+            <tr>
+                <th>Thu</th>
+                <td colspan="2">25CS2102-L - S-3 -RoomNo-C421B1</td>
+                <td colspan="2" align="center">25EC2206-L - S-5 -RoomNo-C608</td>
+                <td colspan="2">25CS2101-S - S-4 -RoomNo-C623</td>
+                <td colspan="2">--------------------------------------------------</td>
+            </tr>
+
+            <!-- Friday -->
+            <tr>
+                <th>Fri</th>
+                <td colspan="2">25SC2006-S - S-2 -RoomNo-M001A</td>
+                <td colspan="2" align="center">25CS2102-P - S-3 -RoomNo-C317A</td>
+                <td colspan="2">25MT1306-T - S-5 -RoomNo-C321B1</td>
+                <td colspan="2">25SP2105-S - S-3 - RoomNo-CHESS</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
